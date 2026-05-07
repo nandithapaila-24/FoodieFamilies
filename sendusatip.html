@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send Us A Tip</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <body style="background-color:#727A58;">
+
+    <a href="homepage.html"><img src="./assets/foodiefamilylogo.png"
+        alt='foodie family logo that looks like a carrot in between two letter Fs' id="logo"></a>
+
+    <nav class="navbar">
+      <div class="tabname">
+        <p><a href="foodpantries.html">Food Pantries</a></p>
+      </div>
+      <div class="tabname">
+        <p><a href="mutualaid.html">Mutual Aid</a></p>
+      </div>
+      <!-- <div class="tabname">
+        <p><a href="eventcalendar.html">Event Calendar</a></p>
+      </div> -->
+      <div class="tabname">
+        <p><a href="ourfamily.html">Our Family</a></p>
+      </div>
+      <div class="tabname">
+        <p><a href="sendusatip.html">Send Us A Resource</a></p>
+      </div>
+    </nav>
+
+    <a href="mobilenavpage.html"><img id="hamburgermenuicon" src="./assets/hamburgermenuicon.png" alt="icon of a hamburger"></a>
+
+    <h1 class="bluetitle">Send Us A Resource</h1>
+
+    <img id="sendusatipgraphic" src="./assets/foodpantrygroceriesbasketgraphic.png" alt="illustration of a box of produce">
+
+
+
+
+    <form action="https://sheetdb.io/api/v1/3jhh32l6lvfvs" method="post">
+      <!-- <form> -->
+
+      <div>
+        <label for="name" class="sendusatipinputtitles">Your Name</label>
+        <br>
+        <input type="name" class="tipinputfield" name="name" id="name">
+      </div>
+
+      <br>
+
+      <div>
+        <label for="communityresourceyoufound" class="sendusatipinputtitles">Community Resource You Found</label>
+        <br>
+        <select class="tipinputfield" name="communityresourceyoufound" id="communityresourceyoufound" required>
+          <option value="">Select a resource</option>
+          <option value="food-pantry">Food Pantry</option>
+          <option value="soup-kitchen">Soup Kitchen</option>
+          <option value="community-fridge">Community Fridge</option>
+          <option value="Mutual Aid">Mutual Aid</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="location" class="sendusatipinputtitles">Location (Address)</label>
+        <br>
+        <input type="location" class="tipinputfield" name="location" id="location" required>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="date" class="sendusatipinputtitles">Start Date (If Applicable)</label>
+        <br>
+        <input type="date" class="tipinputfield" name="date" id="date">
+      </div>
+
+<br>
+
+<div>
+        <label for="date" class="sendusatipinputtitles">End Date (If Applicable)</label>
+        <br>
+        <input type="date" class="tipinputfield" name="date" id="enddate">
+      </div>
+
+<br>
+
+      <div>
+
+        
+        <label for="description" class="sendusatipinputtitles">Description/Additional Details</label>
+        <br>
+        <textarea id="description" name="description" class="tipinputfield"></textarea> 
+       
+      </div>
+
+<div>
+  <input type="submit">
+</div>
+
+
+
+    </form>
+
+
+
+  </body>
+
+</html>

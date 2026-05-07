@@ -1,0 +1,229 @@
+.redtitle{
+    color:#CE190C;
+    font-size:120px;
+    font-family: "Spicy Rice", serif;
+}
+
+.bluetitle{
+    color:#A1ECFF;
+    font-size:120px;
+    font-family: "Spicy Rice", serif;
+}
+
+#foodpantrygraphic{
+    width:300px;
+    display:flex;
+    float:left;
+}
+
+#foodpantryinfoblurb{
+    /* display:flex; */
+    /* flex-direction:column; */
+    font-family: "Ruda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    width:70vw;
+}
+
+#infoblurbbox{
+    /* display:wrap; */
+    float:inline-end;
+    justify-content:right;
+    background-color:#CE190C;
+    width:80vw;
+}
+
+#foodpantryinfo{
+    padding-top:100px;
+}
+
+.map-frame-main {
+  width: 100%;
+  max-width: 1176px;
+  height: 480px;   
+  overflow: hidden;
+  position: relative;
+}
+
+.map-frame-main iframe {
+  width: 100%;
+  height: 500px;
+  border: 0;
+  position: relative;
+  top: -60px;      
+}
+
+#logo{
+    width:70px;
+}
+
+p{
+  font-family: "Ruda", sans-serif; 
+  font-size:20px; 
+}
+
+.subheader{
+    font-family: "Ruda", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+#mutualaidgraphic{
+    width:150px;
+    display:flex;
+    float:left;
+}
+
+#mutualaidinfoblurb{
+    /* display:flex; */
+    /* flex-direction:column; */
+    /* font-family: "Ruda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; */
+    width:70vw;
+    /* float:right; */
+}
+
+#submitzipcodebutton{
+    font-family:"Ruda", sans-serif;
+    font-size:20px;
+    background-color:#CE190C;
+    color:white;
+    border-radius:10px;
+}
+
+#zipcodeinput{
+    font-family:"Ruda", sans-serif;
+    font-size:20px;  
+}
+
+.tipinputfield{
+    font-family:"Ruda", sans-serif;
+    font-size:20px;
+}
+
+.sendusatipinputtitles{
+    font-family: "Ruda", sans-serif; 
+    font-size:20px;
+    font-weight:600;
+    color: #A1ECFF;
+}
+
+#sendusatipgraphic{
+    width:700px;
+    display:wrap;
+    /* float:left; */
+}
+
+#foodiefamilytitle{
+    padding:8px;
+    margin:8px;
+}
+
+#foodpantrytitle{
+    padding:8px;
+    margin:8px;
+}
+
+#mutualaidtitle{
+    padding:8px;
+    margin:8px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    float:right;
+    width:40vw;
+}
+
+.navbar{
+    display:flex;
+    align-content: space-evenly;
+    /* flex-direction:wrap; */
+    font-family: "Ruda", sans-serif;
+    font-size:20px;
+    /* right:0; */
+    position:sticky;
+    width:100vw;
+    top:50px;
+    /* background-color:red; */
+    /* word-spacing:50px; */
+}
+
+.tabname{
+    padding:30px;
+    width: 300px;
+    /* background-color: #00ccff; */
+}
+
+.mobilenavmenu{
+    font-family: "Ruda", sans-serif;
+    font-size:20px;
+}
+
+a:link{
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+}
+
+a:active, a:hover{
+    color:black;
+    text-decoration:solid;
+    background-color:white;
+}
+
+a:visited{
+    color:black;
+    text-decoration:solid;
+    background-color:white;
+}
+
+
+
+#map { 
+    height: 220px; 
+    align-items:center;
+    display:flex;
+    width:100vw;
+    justify-content:center;
+    padding-top:400px;
+}
+
+#homepagemap{
+    align-content:center;
+    display:wrap;
+    width:100vw;
+}
+
+
+@media only screen and (max-width: 769px) {
+  .navbar{
+      display:none;
+  }
+   #hamburgermenuicon{
+         display:block;
+         position:fixed;
+         right:30px;
+         top:30px;
+         width:90px;
+   }
+
+   #homepagemap{
+    width:749px;
+   }
+}
+
+@media (min-width: 770px) {
+    #hamburgermenuicon{
+        display:none;
+    }
+}
+
+
+
+
